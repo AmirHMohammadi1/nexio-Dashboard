@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import IndexNavbar from "@/components/Navbars/IndexNavbar";
@@ -13,13 +12,13 @@ export default function Home() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Notus NextJS - A beautiful extension for Tailwind CSS.
+                Nexio - A beautiful Dashboard.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Notus NextJS is Free and Open Source. It does not change any of
+                Nexio is a modern Dashboard. It does not change any of
                 the CSS from{" "}
                 <a
-                  href="https://tailwindcss.com/?ref=creativetim"
+                  href="https://tailwindcss.com"
                   className="text-blueGray-600"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -27,23 +26,23 @@ export default function Home() {
                   Tailwind CSS
                 </a>
                 . It features multiple HTML elements and it comes with dynamic
-                components for ReactJS, Vue and Angular.
+                components for ReactJS.
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
+                  href="#"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
-                <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
+                {/* <a
+                  href="#"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
                   Github Star
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -83,10 +82,10 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+              <div className="relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                 <div className="w-full h-48 relative rounded-t-lg overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                    src="/img/photo-1498050108023.jpg"
                     alt="Great for your awesome project"
                     fill
                     className="object-cover"
@@ -130,7 +129,7 @@ export default function Home() {
                         CSS Components
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
+                        Nexio comes with a huge number of Fully Coded CSS
                         components.
                       </p>
                     </div>
@@ -145,7 +144,7 @@ export default function Home() {
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                        NextJS.
                       </p>
                     </div>
                   </div>
@@ -158,7 +157,7 @@ export default function Home() {
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Pages</h6>
                       <p className="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
+                        This dashboard also comes with 3 sample pages. They are
                         fully coded so you can start working instantly.
                       </p>
                     </div>
@@ -173,7 +172,7 @@ export default function Home() {
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         Built by developers for developers. You will love how
-                        easy is to to work with Notus NextJS.
+                        easy is to to work with Nexio.
                       </p>
                     </div>
                   </div>
@@ -224,7 +223,7 @@ export default function Home() {
                 </span>
               </div>
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
+                href="#"
                 target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
@@ -298,13 +297,13 @@ export default function Home() {
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
+                    href="#"
                     target="_blank"
                   >
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                          src="/img/svelte.jpg"
                           alt="Svelte"
                           fill
                           className="rounded-full object-cover"
@@ -316,13 +315,13 @@ export default function Home() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
+                    href="#"
                     target="_blank"
                   >
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                          src="/img/react.jpg"
                           alt="ReactJS"
                           fill
                           className="rounded-full object-cover"
@@ -334,13 +333,13 @@ export default function Home() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
+                    href="#"
                     target="_blank"
                   >
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
+                          src="/img/nextjs.jpg"
                           alt="NextJS"
                           fill
                           className="rounded-full object-cover"
@@ -354,13 +353,13 @@ export default function Home() {
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                    href="#"
                     target="_blank"
                   >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                          src="/img/js.png"
                           alt="JavaScript"
                           fill
                           className="rounded-full object-cover"
@@ -372,13 +371,13 @@ export default function Home() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                    href="#"
                     target="_blank"
                   >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                          src="/img/angular.jpg"
                           alt="Angular"
                           fill
                           className="rounded-full object-cover"
@@ -390,13 +389,13 @@ export default function Home() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
+                    href="#"
                     target="_blank"
                   >
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                          src="/img/vue.jpg"
                           alt="Vue.js"
                           fill
                           className="rounded-full object-cover"
@@ -454,7 +453,7 @@ export default function Home() {
                 </span>
               </div>
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
+                href="#"
                 target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
@@ -548,7 +547,7 @@ export default function Home() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Notus NextJS is a completly new product built using our past
+              Nexio is a completly new product built using our past
               experience in web templates. Take the examples we made for you and
               start playing with them.
             </p>
@@ -565,15 +564,17 @@ export default function Home() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Login Page
                   </h5>
-                  <Link href="/auth/login">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                  <Link href="/login">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <div className="w-full h-48 relative rounded-lg overflow-hidden">
                         <Image
                           src="/img/login.jpg"
                           alt="Login Page"
-                          fill
+                          width={400}
+                          height={400}
+                          // fill
                           className="object-cover"
-                          sizes="(max-width: 400px) 100vw, 400px"
+                          // sizes="(max-width: 400px) 100vw, 400px"
                         />
                       </div>
                     </div>
@@ -585,14 +586,16 @@ export default function Home() {
                     Profile Page
                   </h5>
                   <Link href="/profile">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <div className="w-full h-48 relative rounded-lg overflow-hidden">
                         <Image
                           src="/img/profile.jpg"
                           alt="Profile Page"
-                          fill
+                          // fill
                           className="object-cover"
-                          sizes="(max-width: 400px) 100vw, 400px"
+                          // sizes="(max-width: 400px) 100vw, 400px"
+                          width={400}
+                          height={400}
                         />
                       </div>
                     </div>
@@ -604,14 +607,16 @@ export default function Home() {
                     Landing Page
                   </h5>
                   <Link href="/landing">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <div className="w-full h-48 relative rounded-lg overflow-hidden">
                         <Image
                           src="/img/landing.jpg"
                           alt="Landing Page"
-                          fill
+                          // fill
                           className="object-cover"
-                          sizes="(max-width: 400px) 100vw, 400px"
+                          // sizes="(max-width: 400px) 100vw, 400px"
+                          width={400}
+                          height={400}
                         />
                       </div>
                     </div>

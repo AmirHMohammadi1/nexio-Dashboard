@@ -13,8 +13,8 @@ export default function Profile() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
+              backgroundImage: 
+                "url('/img/profile-bg.jpg')",
             }}
           >
             <span
@@ -49,13 +49,15 @@ export default function Profile() {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
                     <div className="relative">
-                      <div className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px w-32 h-32">
+                      <div className="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-300-px w-48 h-48">
                         <Image
                           src="/img/team-2-800x800.jpg"
                           alt="Jenna Stones"
-                          fill
+                          // fill
+                          width={300}
+                          height={300}
                           className="rounded-full object-cover"
-                          sizes="(max-width: 150px) 100vw, 150px"
+                          // sizes="(max-width: 150px) 100vw, 150px"
                         />
                       </div>
                     </div>

@@ -24,7 +24,7 @@ export default function Navbar({ fixed = false, transparent = false }: NavbarPro
                 transparent ? "text-white" : "text-blueGray-700"
               }`}
             >
-              Notus NextJS
+              Nexio Dashboard
             </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -36,7 +36,7 @@ export default function Navbar({ fixed = false, transparent = false }: NavbarPro
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none" +
+              "lg:flex grow items-center bg-white lg:bg-opacity-0 lg:shadow-none" +
               (navbarOpen ? " block" : " hidden")
             }
             id="example-navbar-warning"

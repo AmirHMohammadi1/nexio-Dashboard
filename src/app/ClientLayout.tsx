@@ -21,7 +21,7 @@ export default function ClientLayout({
     
     const timer = setTimeout(() => {
       handleComplete() // پس از تاخیر
-    }, 500)
+    }, 1000)
 
     return () => clearTimeout(timer)
   }, [pathname])

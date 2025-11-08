@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -16,7 +15,7 @@ export default function Landing() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+                "url('/img/photo-landing.jpg')",
             }}
           >
             <span
@@ -33,7 +32,7 @@ export default function Landing() {
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                     This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
+                    using Nexio. It features multiple CSS components
                     based on the Tailwind CSS design system.
                   </p>
                 </div>
@@ -130,7 +129,7 @@ export default function Landing() {
                   JavaScript.
                 </p>
                 <Link href="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus NextJS!
+                  Check Nexio!
                 </Link>
               </div>
 
@@ -138,7 +137,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <div className="w-full h-64 relative rounded-t-lg overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                      src="/img/photo-landing1.jpg"
                       alt="Top Notch Services"
                       fill
                       className="object-cover"
@@ -198,7 +197,7 @@ export default function Landing() {
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
                 <div className="max-w-full rounded-lg shadow-lg overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                    src="/img/photo-landing2.jpg"
                     alt="A growing company"
                     width={634}
                     height={475}

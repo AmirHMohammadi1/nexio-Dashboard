@@ -30,6 +30,7 @@ const IndexDropdown = () => {
         ref={btnDropdownRef}
         onClick={(e) => {
           e.preventDefault();
+          // eslint-disable-next-line @typescript-eslint/no-unused-expressions
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
