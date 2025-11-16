@@ -1,20 +1,20 @@
-import React from "react";
 import Image from "next/image";
 
 export default function CardProfile() {
   return (
-    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16">
+    <div className="relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-xl rounded-lg mt-16">
       <div className="px-6">
         <div className="flex flex-wrap justify-center">
           <div className="w-full px-4 flex justify-center">
             <div className="relative">
-              <div className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px w-32 h-32">
+              <div className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px w-32">
                 <Image
                   src="/nexio-Dashboard/img/team-2-800x800.jpg"
                   alt="Jenna Stones"
-                  fill
+                  width={150}
+                  height={150}
                   className="rounded-full object-cover"
-                  sizes="(max-width: 150px) 100vw, 150px"
+                  // sizes="(max-width: 150px) 100vw, 150px"
                 />
               </div>
             </div>

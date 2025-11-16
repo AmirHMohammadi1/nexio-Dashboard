@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-const PROJECT_PATH = "./"; 
-// const BASE_PATH = "/nexio-Dashboard";
+const PROJECT_PATH = "./";
+const BASE_PATH = "/nexio-Dashboard";
 
 function fixImagePaths(dir) {
   const files = fs.readdirSync(dir);
@@ -12,7 +12,7 @@ function fixImagePaths(dir) {
 
     // skip folders we don't want to scan
     if (fs.statSync(filePath).isDirectory()) {
-      if (!["node_modules", ".next", "out"].includes(file)) {
+      if (!["node_modules", ".next", "out", "fix-image-path"].includes(file)) {
         fixImagePaths(filePath);
       }
       continue;
@@ -36,9 +36,14 @@ function fixImagePaths(dir) {
     // );
 
     // updated = updated.replace(
-    //   /\/img\//g,
-    //   `${BASE_PATH}/img/`
+    //   /\/nexio-Dashboard/g,
+    //   ""
     // );
+
+    updated = updated.replace(
+      /\/img\//g,
+      `${BASE_PATH}/img/`
+    );
 
     // 2) background-image: url("/img/...")   OR   url('/img/...')
     // updated = updated.replace(

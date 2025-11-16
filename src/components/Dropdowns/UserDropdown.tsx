@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { createPopper } from "@popperjs/core";
 import Link from "next/link";
 import Image from "next/image";
@@ -29,8 +29,8 @@ const UserDropdown = () => {
         className="text-blueGray-500 block"
         href=""
         ref={btnDropdownRef}
-        onClick={(e) => {
-          e.preventDefault();
+        onClick={() => {
+          // e.preventDefault();
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
@@ -60,7 +60,7 @@ const UserDropdown = () => {
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
-          onClick={(e) => e.preventDefault()}
+          // onClick={(e) => e.preventDefault()}
         >
           Action
         </Link>

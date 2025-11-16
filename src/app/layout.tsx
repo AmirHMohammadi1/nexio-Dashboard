@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title: 'Nexio - NextJS Dashboard by A.Developer',
   description: 'Nexio - v1.0.0 based on Tailwind',
   icons: {
-    icon: '/img/brand/favicon.ico',
-    apple: '/img/brand/apple-icon.png',
+    icon: '/nexio-Dashboard/img/brand/favicon.ico',
+    apple: '/nexio-Dashboard/img/brand/apple-icon.png',
   },
 }
 
@@ -34,7 +34,7 @@ export default function RootLayout({
         {/* <link
           rel="apple-touch-icon"
           sizes="76x76"
-          href="/img/brand/apple-icon.png"
+          href="/nexio-Dashboard/img/brand/apple-icon.png"
         />
         <script
           src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"

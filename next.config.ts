@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/nexio-Dashboard',
-  assetPrefix: '/nexio-Dashboard',
+  basePath: '',
+  assetPrefix: '',
 };
 
 export default nextConfig;
