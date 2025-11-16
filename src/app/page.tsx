@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         <div className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px">
           <Image
-            src="/img/pattern_nextjs.png"
+            src="/nexio-Dashboard/img/pattern_nextjs.png"
             alt="Next.js Pattern"
             width={800}
             height={600}
@@ -85,7 +85,7 @@ export default function Home() {
               <div className="relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                 <div className="w-full h-48 relative rounded-t-lg overflow-hidden">
                   <Image
-                    src="/img/photo-1498050108023.jpg"
+                    src="/nexio-Dashboard/img/photo-1498050108023.jpg"
                     alt="Great for your awesome project"
                     fill
                     className="object-cover"
@@ -236,7 +236,7 @@ export default function Home() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <div className="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3">
                   <Image
-                    src="/img/component-btn.png"
+                    src="/nexio-Dashboard/img/component-btn.png"
                     alt="Component Button"
                     width={100}
                     height={100}
@@ -245,7 +245,7 @@ export default function Home() {
                 </div>
                 <div className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px">
                   <Image
-                    src="/img/component-profile-card.png"
+                    src="/nexio-Dashboard/img/component-profile-card.png"
                     alt="Profile Card"
                     width={210}
                     height={160}
@@ -254,7 +254,7 @@ export default function Home() {
                 </div>
                 <div className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2">
                   <Image
-                    src="/img/component-info-card.png"
+                    src="/nexio-Dashboard/img/component-info-card.png"
                     alt="Info Card"
                     width={180}
                     height={135}
@@ -263,7 +263,7 @@ export default function Home() {
                 </div>
                 <div className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px">
                   <Image
-                    src="/img/component-info-2.png"
+                    src="/nexio-Dashboard/img/component-info-2.png"
                     alt="Info 2"
                     width={200}
                     height={150}
@@ -272,7 +272,7 @@ export default function Home() {
                 </div>
                 <div className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px">
                   <Image
-                    src="/img/component-menu.png"
+                    src="/nexio-Dashboard/img/component-menu.png"
                     alt="Component Menu"
                     width={580}
                     height={435}
@@ -281,7 +281,7 @@ export default function Home() {
                 </div>
                 <div className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px">
                   <Image
-                    src="/img/component-btn-pink.png"
+                    src="/nexio-Dashboard/img/component-btn-pink.png"
                     alt="Pink Button"
                     width={120}
                     height={90}
@@ -303,7 +303,7 @@ export default function Home() {
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="/img/svelte.jpg"
+                          src="/nexio-Dashboard/img/svelte.jpg"
                           alt="Svelte"
                           fill
                           className="rounded-full object-cover"
@@ -321,7 +321,7 @@ export default function Home() {
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="/img/react.jpg"
+                          src="/nexio-Dashboard/img/react.jpg"
                           alt="ReactJS"
                           fill
                           className="rounded-full object-cover"
@@ -339,7 +339,7 @@ export default function Home() {
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="/img/nextjs.jpg"
+                          src="/nexio-Dashboard/img/nextjs.jpg"
                           alt="NextJS"
                           fill
                           className="rounded-full object-cover"
@@ -359,7 +359,7 @@ export default function Home() {
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="/img/js.png"
+                          src="/nexio-Dashboard/img/js.png"
                           alt="JavaScript"
                           fill
                           className="rounded-full object-cover"
@@ -377,7 +377,7 @@ export default function Home() {
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="/img/angular.jpg"
+                          src="/nexio-Dashboard/img/angular.jpg"
                           alt="Angular"
                           fill
                           className="rounded-full object-cover"
@@ -395,7 +395,7 @@ export default function Home() {
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <div className="shadow-md rounded-full max-w-full w-16 h-16 mx-auto p-2 bg-white relative">
                         <Image
-                          src="/img/vue.jpg"
+                          src="/nexio-Dashboard/img/vue.jpg"
                           alt="Vue.js"
                           fill
                           className="rounded-full object-cover"
@@ -532,7 +532,7 @@ export default function Home() {
                 transform: "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
               }}>
                 <Image
-                  src="/img/documentation.png"
+                  src="/nexio-Dashboard/img/documentation.png"
                   alt="Documentation"
                   width={800}
                   height={600}
@@ -568,7 +568,7 @@ export default function Home() {
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <div className="w-full h-48 relative rounded-lg overflow-hidden">
                         <Image
-                          src="/img/login.jpg"
+                          src="/nexio-Dashboard/img/login.jpg"
                           alt="Login Page"
                           width={400}
                           height={400}
@@ -589,7 +589,7 @@ export default function Home() {
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <div className="w-full h-48 relative rounded-lg overflow-hidden">
                         <Image
-                          src="/img/profile.jpg"
+                          src="/nexio-Dashboard/img/profile.jpg"
                           alt="Profile Page"
                           // fill
                           className="object-cover"
@@ -610,7 +610,7 @@ export default function Home() {
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <div className="w-full h-48 relative rounded-lg overflow-hidden">
                         <Image
-                          src="/img/landing.jpg"
+                          src="/nexio-Dashboard/img/landing.jpg"
                           alt="Landing Page"
                           // fill
                           className="object-cover"

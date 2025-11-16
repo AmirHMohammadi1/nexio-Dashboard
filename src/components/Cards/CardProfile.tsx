@@ -10,7 +10,7 @@ export default function CardProfile() {
             <div className="relative">
               <div className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px w-32 h-32">
                 <Image
-                  src="/img/team-2-800x800.jpg"
+                  src="/nexio-Dashboard/img/team-2-800x800.jpg"
                   alt="Jenna Stones"
                   fill
                   className="rounded-full object-cover"

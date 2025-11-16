@@ -21,7 +21,7 @@ export default function Register() {
                 >
                   <div className="w-5 h-5 mr-1 relative">
                     <Image
-                      src="/img/github.svg"
+                      src="/nexio-Dashboard/img/github.svg"
                       alt="Github"
                       fill
                       className="object-contain"
@@ -35,7 +35,7 @@ export default function Register() {
                 >
                   <div className="w-5 h-5 mr-1 relative">
                     <Image
-                      src="/img/google.svg"
+                      src="/nexio-Dashboard/img/google.svg"
                       alt="Google"
                       fill
                       className="object-contain"

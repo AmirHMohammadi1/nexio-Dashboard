@@ -39,7 +39,7 @@ const UserDropdown = () => {
             <div className="w-full h-full rounded-full overflow-hidden relative">
               <Image
                 alt="User avatar"
-                src="/img/team-1-800x800.jpg"
+                src="/nexio-Dashboard/img/team-1-800x800.jpg"
                 fill
                 className="rounded-full align-middle border-none shadow-lg object-cover"
                 sizes="(max-width: 48px) 100vw, 48px"

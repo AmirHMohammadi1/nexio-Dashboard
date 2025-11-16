@@ -51,7 +51,7 @@ export default function Profile() {
                     <div className="relative">
                       <div className="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-300-px w-48 h-48">
                         <Image
-                          src="/img/team-2-800x800.jpg"
+                          src="/nexio-Dashboard/img/team-2-800x800.jpg"
                           alt="Jenna Stones"
                           // fill
                           width={300}

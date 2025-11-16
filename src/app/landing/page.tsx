@@ -137,7 +137,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 wrap-break-word bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <div className="w-full h-64 relative rounded-t-lg overflow-hidden">
                     <Image
-                      src="/img/photo-landing1.jpg"
+                      src="/nexio-Dashboard/img/photo-landing1.jpg"
                       alt="Top Notch Services"
                       fill
                       className="object-cover"
@@ -197,7 +197,7 @@ export default function Landing() {
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
                 <div className="max-w-full rounded-lg shadow-lg overflow-hidden">
                   <Image
-                    src="/img/photo-landing2.jpg"
+                    src="/nexio-Dashboard/img/photo-landing2.jpg"
                     alt="A growing company"
                     width={634}
                     height={475}
@@ -283,7 +283,7 @@ export default function Landing() {
                 <div className="px-6">
                   <div className="shadow-lg rounded-full mx-auto max-w-120-px relative w-32 h-32">
                     <Image
-                      src="/img/team-1-800x800.jpg"
+                      src="/nexio-Dashboard/img/team-1-800x800.jpg"
                       alt="Ryan Tompson"
                       fill
                       className="rounded-full object-cover"
@@ -322,7 +322,7 @@ export default function Landing() {
                 <div className="px-6">
                   <div className="shadow-lg rounded-full mx-auto max-w-120-px relative w-32 h-32">
                     <Image
-                      src="/img/team-2-800x800.jpg"
+                      src="/nexio-Dashboard/img/team-2-800x800.jpg"
                       alt="Romina Hadid"
                       fill
                       className="rounded-full object-cover"
@@ -355,7 +355,7 @@ export default function Landing() {
                 <div className="px-6">
                   <div className="shadow-lg rounded-full mx-auto max-w-120-px relative w-32 h-32">
                     <Image
-                      src="/img/team-3-800x800.jpg"
+                      src="/nexio-Dashboard/img/team-3-800x800.jpg"
                       alt="Alexa Smith"
                       fill
                       className="rounded-full object-cover"
@@ -394,7 +394,7 @@ export default function Landing() {
                 <div className="px-6">
                   <div className="shadow-lg rounded-full mx-auto max-w-120-px relative w-32 h-32">
                     <Image
-                      src="/img/team-4-470x470.png"
+                      src="/nexio-Dashboard/img/team-4-470x470.png"
                       alt="Jenna Kardi"
                       fill
                       className="rounded-full object-cover"
