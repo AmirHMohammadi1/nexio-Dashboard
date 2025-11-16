@@ -35,12 +35,12 @@ export default function Navbar({ transparent = false }: NavbarProps) {
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none" +
+              "lg:flex grow items-center bg-white lg:bg-opacity-0 lg:shadow-none" +
               (navbarOpen ? " block rounded shadow-lg" : " hidden")
             }
             id="example-navbar-warning"
           >
-            <ul className="flex flex-col lg:flex-row list-none mr-auto">
+            {/* <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
                 <Link
                   className={`px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold ${
@@ -48,7 +48,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                       ? "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700" 
                       : "hover:text-blueGray-500 text-blueGray-700"
                   }`}
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-auth-navbar"
+                  href="#"
                   target="_blank"
                 >
                   <i className={`far fa-file-alt text-lg leading-lg mr-2 ${
@@ -57,7 +57,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                   Docs
                 </Link>
               </li>
-            </ul>
+            </ul> */}
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
                 <PagesDropdown />
@@ -69,7 +69,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                       ? "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700" 
                       : "hover:text-blueGray-500 text-blueGray-700"
                   }`}
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F"
+                  href="#"
                   target="_blank"
                 >
                   <i className={`fab fa-facebook text-lg leading-lg ${
@@ -86,7 +86,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                       ? "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700" 
                       : "hover:text-blueGray-500 text-blueGray-700"
                   }`}
-                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20NextJS%20UI%20Kit%20and%20Admin.%20Let%20Notus%20NextJS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
+                  href="#"
                   target="_blank"
                 >
                   <i className={`fab fa-twitter text-lg leading-lg ${
@@ -103,7 +103,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                       ? "lg:text-white lg:hover:text-blueGray-200 text-blueGray-700" 
                       : "hover:text-blueGray-500 text-blueGray-700"
                   }`}
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-auth-navbar"
+                  href="#"
                   target="_blank"
                 >
                   <i className={`fab fa-github text-lg leading-lg ${
@@ -113,7 +113,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                 </Link>
               </li>
 
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <button
                   className={`text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150 ${
                     transparent 
@@ -124,7 +124,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                 >
                   <i className="fas fa-arrow-alt-circle-down"></i> Download
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
