@@ -14,7 +14,7 @@ export default function Profile() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage: 
-                "url('/img/profile-bg.jpg')",
+                "url('/nexio-Dashboard/img/profile-bg.jpg')",
             }}
           >
             <span

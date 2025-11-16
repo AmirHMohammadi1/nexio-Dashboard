@@ -15,7 +15,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
           <div
             className="absolute top-0 w-full h-full bg-blueGray-800 bg-no-repeat bg-full"
             style={{
-              backgroundImage: "url('/img/register_bg_2.png')",
+              backgroundImage: "url('/nexio-Dashboard/img/register_bg_2.png')",
             }}
           ></div>
           {children}

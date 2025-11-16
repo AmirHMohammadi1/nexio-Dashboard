@@ -15,7 +15,7 @@ export default function Landing() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('/img/photo-landing.jpg')",
+                "url('/nexio-Dashboard/img/photo-landing.jpg')",
             }}
           >
             <span
