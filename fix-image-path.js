@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const PROJECT_PATH = "./"; 
-const BASE_PATH = "/nexio-Dashboard";
+// const BASE_PATH = "/nexio-Dashboard";
 
 function fixImagePaths(dir) {
   const files = fs.readdirSync(dir);
@@ -25,16 +25,31 @@ function fixImagePaths(dir) {
     let updated = content;
 
     // 1) <img src="/img/...">
-    updated = updated.replace(
-      /src="\/img\//g,
-      `src="${BASE_PATH}/img/`
-    );
+    // updated = updated.replace(
+    //   /src="\/img\//g,
+    //   `src="${BASE_PATH}/img/`
+    // );
+
+    // updated = updated.replace(
+    //   /src='\/img\//g,
+    //   `src='${BASE_PATH}/img/`
+    // );
+
+    // updated = updated.replace(
+    //   /\/img\//g,
+    //   `${BASE_PATH}/img/`
+    // );
 
     // 2) background-image: url("/img/...")   OR   url('/img/...')
-    updated = updated.replace(
-      /url\(["']\/img\//g,
-      `url('${BASE_PATH}/img/`
-    );
+    // updated = updated.replace(
+    //   /url\(["]\/img\//g,
+    //   `url("${BASE_PATH}/img/`
+    // );
+
+    // updated = updated.replace(
+    //   /url\([']\/img\//g,
+    //   `url('${BASE_PATH}/img/`
+    // );
 
     // اگر تغییر داشت → ذخیره کنیم
     if (updated !== content) {
