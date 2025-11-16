@@ -1,6 +1,7 @@
 {
   "name": "nexio-dashboard",
   "version": "0.1.0",
+  "homepage": "https://AmirHMohammadi1.github.io/nexio-Dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev",
